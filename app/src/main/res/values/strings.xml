@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Crypto</string>
+
+    <string-array name="recipes">
+        <item>Bitcoin</item>
+        <item>Ethereum</item>
+        <item>Dogecoin</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>The OG coin</item>
+        <item>Not Bitcoin</item>
+        <item>Dogecoin to the moon!</item>
+    </string-array>
+</resources>
