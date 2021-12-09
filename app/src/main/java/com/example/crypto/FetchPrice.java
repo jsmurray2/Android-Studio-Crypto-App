@@ -26,8 +26,6 @@ public class FetchPrice extends AsyncTask<String, Void, String> {
     }
 
     protected String getCryptoInfo() throws IOException {
-        //Crypto API URL
-        //String apiURL = "https://api.coincap.io/v2/assets";
 
         //Make connection to API
         URL requestURL = new URL("https://api.coincap.io/v2/assets");
@@ -85,7 +83,7 @@ public class FetchPrice extends AsyncTask<String, Void, String> {
             //get PriceUSD key
             String quote = priceObj.getString("priceUsd");
 
-            //volumeInfo object has title and author string
+      
             price += quote + "\n";
             Log.d("FetchPrice","Price is "+ price);
 
